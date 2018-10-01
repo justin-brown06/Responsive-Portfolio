@@ -177,4 +177,14 @@ img:hover{
     body{
         width: 100%;
     }
+    .about-me{
+        width: 100%;
+        text-align: center;
+    }
+    #form{
+        width: ;
+        margin-left: auto;
+        margin-right: auto;
+        display: inherit;
+    }
 }
