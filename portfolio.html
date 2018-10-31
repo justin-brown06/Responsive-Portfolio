@@ -12,13 +12,13 @@
 <body>
     <header id="masthead">
         <div class="container">
-            <a href="index.html" id="logo">Justin Brown</a>
+            <a href="index.html" class="logo" id="anch">Justin Brown</a>
         </div>
         <div class="container">
             <nav id="navbar">
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
+                <a id="anch" href="index.html">About</a>
+                <a id="anch" href="portfolio.html">Portfolio</a>
+                <a id="anch" href="contact.html">Contact</a>
             </nav>
         </div>
     </header>
@@ -29,20 +29,27 @@
         <section class="main-section">
 
             <div class="work clearfix">
-                <img class="img-portfolio" src="http://placehold.it/200x200" alt="mockup">
                 <a href="https://blaney83.github.io/SVW_project_one" target="_blank">
-                    <h3>Let's Travel</h3>
+                    <img class="img-portfolio" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOaiRFGSFGqvm7fOf55pMYwCPyhKVWy6gG-4HVNGRNxpOJvJyK9Q"
+                        alt="Let's Travel">
                 </a>
+                <h3>Let's Travel</h3>
             </div>
 
             <div class="work clearfix">
-                <img src="http://placehold.it/200x200" alt="mockup">
-                <h3>Title for Image</h3>
+                <a href="https://github.com/justin-brown06/liri_node_app" target="_blank">
+                    <img src="data:image/png;base64,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"
+                        alt="node.js">
+                </a>
+                <h3>Liri-Bot</h3>
             </div>
 
             <div class="work clearfix">
-                <img src="http://placehold.it/200x200" alt="mockup">
-                <h3>Title for Image</h3>
+                <a href="https://justin-brown06.github.io/TrainTimeHomework/" target="_blank">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsFZ6SODMqST2uwRdWJSuP2pNohgwyEWfzY728V4CvBbWuqVfc"
+                        alt="Train Schedule">
+                </a>
+                <h3>Train Schedule</h3>
             </div>
 
             <div class="work clearfix">
