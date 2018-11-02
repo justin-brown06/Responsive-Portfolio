@@ -1,16 +1,16 @@
 body{
     width: 960px;
-    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'Krub', 'Open Sans', sans-serif;
     background-color: white;
 }
 .container{
-    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'Krub', 'Open Sans', sans-serif;
     background-color: white;
     position: relative;
     margin: auto;
 }
 #masthead{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Krub', 'Open Sans', sans-serif;
     position: relative;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -114,7 +114,7 @@ input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-    font-family:  Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-family:  Krub|Open+Sans;
 }
 input[type=submit] {
     background-color: white;
