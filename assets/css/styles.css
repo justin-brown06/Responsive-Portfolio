@@ -1,11 +1,11 @@
 body{
     width: 960px;
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-    background-color: bisque;
+    background-color: white;
 }
 .container{
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-    background-color: bisque;
+    background-color: white;
     position: relative;
     margin: auto;
 }
@@ -24,7 +24,7 @@ body{
     text-decoration: none;
 }
 nav{
-    color: #777777;
+    color: #5f6368;
     position: absolute;
     right: 0;
     margin-top: -18px;
@@ -33,20 +33,20 @@ nav{
 li{
     list-style-type: none;
     display: inline;
-    color: #777777;
+    color: #5f6368;
     text-align: right;
 }
-#anch{ 
-    color: #444444;
+#anch{
+    color: #5f6368;
     display: block, inline;
     padding: 8px;
-    background-color: #4aaaa5;
-    border-style: solid;
-    border-color: #777777;
+    /* border-style: solid; */
+    /* border-color: #5f6368; */
+    text-decoration: none;
 }
 #main-container{
     width: 75%;
-    color: #777777;
+    color: #5f6368;
     position: relative;
     font-size: 20px;
     margin-top: 50px;
@@ -56,9 +56,9 @@ li{
     width: 100%;
     margin-top: 50px;
     display: inline-block;
-    background-color: #4aaaa5;
-    border-style: solid;
-    border-color: #777777;
+    background-color: white;
+    /* border-style: solid; */
+    border-color: #5f6368;
     margin-bottom: 50px;
 }
 .bio-image{
@@ -67,17 +67,17 @@ li{
     height: 200px;
     margin: 15px;
     border-style: solid;
-    border-color: #777777;
+    border-color: #5f6368;
 }
 p {
-    color: #444444;
+    color: #5f6368;
     padding: 10px;
     line-height: 30px;
 }
 .footer{
     line-height: 150%;
     text-align: center;
-    background-color: #777777;
+    background-color: #5f6368;
     height: 25px;
     border-style: solid;
     border-color: #4aaaa5;
@@ -87,7 +87,7 @@ p {
     width: 33.3%;
     margin-bottom: -30px;
     font-size: 32px;
-    color: #444444;
+    color: #5f6368;
     border-bottom: 2px double;
     border-color: #4aaaa5;
 }
@@ -100,7 +100,7 @@ p {
     display: inline-block;
     background-color: #4aaaa5;
     border-style: solid;
-    border-color: #777777;
+    border-color: #5f6368;
     margin-bottom: 50px;
     resize: vertical;
     width: 75%;
@@ -108,7 +108,7 @@ p {
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #777777;
+    border: 1px solid #5f6368;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
@@ -117,8 +117,8 @@ input[type=text], select, textarea {
     font-family:  Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 input[type=submit] {
-    background-color: bisque;
-    color: #444444;
+    background-color: white;
+    color: #5f6368;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -132,12 +132,12 @@ input[type=submit]:hover {
     margin-left: 90px;
     margin-top: 20px;
     width: 33%;
-    color: #444444;
+    color: #5f6368;
     display: inline-block;
 }
 img:hover{
     border-style: solid;
-    border-color: bisque;
+    border-color: white;
     border-width: 3px;
 
 }
@@ -147,7 +147,7 @@ img:hover{
     display: table;
 }
 .page-header{
-    color: #444444;
+    color: #5f6368;
     font-size: 32px;
     padding: 20px;
     text-decoration: underline;
@@ -159,7 +159,7 @@ img:hover{
 /* For Tablet Screen */
 @media only screen and (max-width: 768px)  {
     #navbar{
-        color: #777777;
+        color: #5f6368;
         position: absolute;
         right: 0;
         margin-top: -18px;
