@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Justin Brown's Portfolio</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Krub|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
@@ -17,34 +19,47 @@
         </div>
         <div class="container">
             <nav id="navbar">
-                <a id="anch" href="index.html">About</a>
+                <a id="anch" href="index.html">Home</a>
                 <a id="anch" href="portfolio.html">Portfolio</a>
+                <a id="anch" href="aboutme.html">About</a>
                 <a id="anch" href="contact.html">Contact</a>
             </nav>
         </div>
     </header>
 
     <div id="main-container" class="container">
-        <h3 class="about-me">Contact</h3>
+        <h3 class="about-me">Get In Touch!</h3>
     </div>
-    <div id="form" class="container">
-        <form action="mailto:brownee06@gmail.com">
-
-            <label for="textarea">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-            <label for="email">Email</label>
-            <input type="text" id="email" name="Email" placeholder="sample@email.com">
-
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Subject.."></textarea>
-
-            <label for="textarea">Comment</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
+    <div class="col-12">
+        <div id="form" class="container">
+            <form action="mailto:brownee06@gmail.com">
+                
+                <div class="col-6">
+                    <div class="row col-12">
+                        <label for="name"></label>
+                        <input type="text" id="fname" name="firstname" placeholder="Name: John Doe">
+                    </div>
+                    
+                    <div class="row col-12">
+                        <label for="email"></label>
+                        <input type="text" id="email" name="Email" placeholder="Email: sample@email.com">
+                    </div>
+                    
+                    <div class="row col-12">
+                        <label for="phoneNumber"></label>
+                        <input type="text" id="number" name="Phone" placeholder="Phone Number: (000)000-0000">
+                    </div>
+                </div>
+                
+                <div class="col-8 justify-content-right">
+                    <label for="textarea"></label>
+                <textarea id="subject" name="subject" placeholder="Please leave any comments!" style="height:200px"></textarea>
+            </div>
+            
             <input type="submit" value="Submit">
-
+            
         </form>
+    </div>
     </div>
 
     <footer>

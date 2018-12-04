@@ -3,6 +3,18 @@ body{
     font-family: 'Krub', 'Open Sans', sans-serif;
     background-color: white;
 }
+/* Color changes for Jumbotron */
+.jumbotron{
+    background-color: rgba(167, 210, 203, 0.7);
+    color: #874c62;
+}
+.lead, .jumbo-text{
+    color: #874c62;
+}
+.btn-color{
+    background-color: #f2d388;
+    color: #874c62;
+}
 .container{
     font-family: 'Krub', 'Open Sans', sans-serif;
     background-color: white;
@@ -16,7 +28,7 @@ body{
     margin-bottom: 20px;
     padding-bottom: 20px;
     border-bottom:solid;
-    border-color: #4aaaa5;
+    border-color: #f2d388;
 }
 .logo{
     margin-left: 20px;
@@ -24,7 +36,7 @@ body{
     text-decoration: none;
 }
 nav{
-    color: #5f6368;
+    color: #874c62;
     position: absolute;
     right: 0;
     margin-top: -18px;
@@ -33,20 +45,20 @@ nav{
 li{
     list-style-type: none;
     display: inline;
-    color: #5f6368;
+    color: #874c62;
     text-align: right;
 }
 #anch{
-    color: #5f6368;
+    color: #c98474;
     display: block, inline;
     padding: 8px;
     /* border-style: solid; */
-    /* border-color: #5f6368; */
+    /* border-color: #874c62; */
     text-decoration: none;
 }
 #main-container{
     width: 75%;
-    color: #5f6368;
+    color: #874c62;
     position: relative;
     font-size: 20px;
     margin-top: 50px;
@@ -58,7 +70,7 @@ li{
     display: inline-block;
     background-color: white;
     /* border-style: solid; */
-    border-color: #5f6368;
+    border-color: #874c62;
     margin-bottom: 50px;
 }
 .bio-image{
@@ -67,29 +79,29 @@ li{
     height: 200px;
     margin: 15px;
     border-style: solid;
-    border-color: #5f6368;
+    border-color: #874c62;
 }
 p {
-    color: #5f6368;
+    color: #874c62;
     padding: 10px;
     line-height: 30px;
 }
 .footer{
     line-height: 150%;
     text-align: center;
-    background-color: #5f6368;
+    background-color: #874c62;
     height: 25px;
     border-style: solid;
-    border-color: #4aaaa5;
+    border-color: #f2d388;
 }
 .about-me{
     padding: 10px;
     width: 33.3%;
     margin-bottom: -30px;
     font-size: 32px;
-    color: #5f6368;
+    color: #c98474;
     border-bottom: 2px double;
-    border-color: #4aaaa5;
+    border-color: #f2d388;
 }
 #form{
     position: relative;
@@ -98,9 +110,6 @@ p {
     padding: 20px;
     margin-top: 50px;
     display: inline-block;
-    background-color: #4aaaa5;
-    border-style: solid;
-    border-color: #5f6368;
     margin-bottom: 50px;
     resize: vertical;
     width: 75%;
@@ -108,31 +117,31 @@ p {
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #5f6368;
+    border: 1px solid #874c62;
+    background-color: rgba(167, 210, 203, 0.7);
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-    font-family:  Krub|Open+Sans;
 }
 input[type=submit] {
-    background-color: white;
-    color: #5f6368;
+    background-color: #f2d388;
+    color: #874c62;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 input[type=submit]:hover {
-    background-color: rgba(255, 228, 196, 0.822);
+    background-color: #c98474;
 }
 .work{
     position: relative;
     margin-left: 90px;
     margin-top: 20px;
     width: 33%;
-    color: #5f6368;
+    color: #874c62;
     display: inline-block;
 }
 img:hover{
@@ -147,19 +156,19 @@ img:hover{
     display: table;
 }
 .page-header{
-    color: #5f6368;
+    color: #874c62;
     font-size: 32px;
     padding: 20px;
     text-decoration: underline;
 }
-.img-portfolio{
+/* .img-portfolio{
     margin: auto;
 
-}
-/* For Tablet Screen */
+} */
+/* For Tablet Screen
 @media only screen and (max-width: 768px)  {
     #navbar{
-        color: #5f6368;
+        color: #874c62;
         position: absolute;
         right: 0;
         margin-top: -18px;
@@ -182,7 +191,7 @@ img:hover{
     }
 }
 /* For Mobile Phones */
-@media only screen and (max-width: 640px)  {
+/* @media only screen and (max-width: 640px)  {
     #logo{
         width: 195px;
         position: relative;
@@ -217,4 +226,4 @@ img:hover{
         margin-left: 20%;
         margin-right: auto;
     }
-}
+} */
